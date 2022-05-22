@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">TooS Server</string>
+    <!-- Settings Activity Title -->
+    <string name="title_activity_settings">ServerSettingsActivity</string>
+
+    <string name="pref_file_key">saved_value</string>
+    <string name="savedDir">saved_dir_path</string>
+
+    <!-- Preference Titles -->
+    <string name="server_header">Server</string>
+    <string name="log_header">Log</string>
+
+    <!-- Server Preferences -->
+    <string name="url">URL: http://localhost:8080</string>
+    <string name="directory">Set server directory</string>
+
+    <!-- Log Preferences -->
+    <string name="show_log">Show Log</string>
+
+    <!-- Button -->
+    <string name="startButton">START</string>
+    <string name="stopButton">STOP</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,26 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/server_header">
+        <Preference
+            app:key="url"
+            app:title="@string/url"
+            app:selectable="false" />
+
+        <Preference
+            app:key="setDirectory"
+            app:title="@string/directory"
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/log_header">
+        <Preference
+            app:key="showLog"
+            app:title="@string/show_log"
+            app:fragment="io.github.amame04.android.simplehttpserver.LogFragment"
+            />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
